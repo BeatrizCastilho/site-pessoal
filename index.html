@@ -1,95 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Pessoal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 225, 147);
+            color: rgb(125, 54, 9);
+            font-family: fantasy;
+        }
+
+        header {
+            background-color: rgb(254, 135, 7);
+            color: rgb(146, 60, 7);
+            text-align: center;
+            padding: 20px;
+            border: 5px solid rgb(88, 21, 4);
+        }
+
+        header h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main {
+            border: 5px solid rgb(82, 8, 3);
+            padding: 20px;
+        }
+
+        section {
+            background-color: rgb(255, 249, 190);
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(125, 54, 9);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: rgb(88, 21, 4);
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        a {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: rgb(255, 234, 197);
+            color: rgb(138, 5, 5);
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            border-top: 3px solid rgb(125, 54, 9);
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<style>
-    body{
-        margin: 0;
-        padding: 0;
-        background-color: rgb(255, 225, 147);
-        color: rgb(125, 54, 9);
-        font-family: fantasy;
-    }
-
-    header{
-        background-color: rgb(254, 135, 7);
-        color: rgb(146,60,7);
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-         border: 5px solid rgb(88, 21, 4);
-    }
-    header h1{
-       font-size: 50px;
-       margin-bottom: 30px;
-    }
-
-    header p{
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    main{
-        border: 5px solid rgb(82, 8, 3);
-        padding-top: 20px;
-        text-align: left;
-    
-    }
-    section{
-        background-color: rgb(255, 249, 190);
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-</style>
 <body>
+
     <header>
-        <h1>
-            Bem Vindo a minha página!
-        </h1>
-        <p>
-            Estudante de Programação
-        </p>
+        <h1>Bem-vindo à minha página!</h1>
+        <p>Estudante de Programação</p>
     </header>
+
     <main>
+
         <section>
-            <h2>
-                        Minhas Habilidades
-                <h2>
-                    <ul>
-                        <li> lógica de programação</li>
-                        <li>HTML5 & CSS3</li>
-                            <li>Trabalho em Equipe</li>
-                            <li>IOT</li>
-                          
-                       
-                    </ul>
-                </h2>
-            </h2>
+            <h2>Minhas Habilidades</h2>
+            <ul>
+                <li>Lógica de Programação</li>
+                <li>HTML5 & CSS3</li>
+                <li>Trabalho em Equipe</li>
+                <li>IoT</li>
+            </ul>
         </section>
-        <h2>
-            Cursos
-        </h2>
-        <ul>
-            <li>Lógica de programação </li>
-            <li>Redes com IOT</li>
-            <li>Sistemas Operacionais</li>
-            <li>Levantamento de Requisitos</li>
-        </ul>
-        <h2>
-            Hobbyes
-            </h2>
+
+        <section>
+            <h2>Cursos</h2>
+            <ul>
+                <li>Lógica de Programação</li>
+                <li>Redes com IoT</li>
+                <li>Sistemas Operacionais</li>
+                <li>Levantamento de Requisitos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
             <ul>
                 <li>Ler livros</li>
                 <li>Cantar em uma banda</li>
                 <li>Assistir séries e filmes</li>
                 <li>Passear</li>
             </ul>
-        </h2>
+        </section>
+
+        <section>
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="mailto:beatriz.c.castilho@aluno.senai.br">E-mail: beatriz.c.castilho@aluno.senai.br</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://site-pessoal-u01o.onrender.com" target="_blank">Meu site hospedado</a></li>
+            </ul>
+        </section>
+
     </main>
+
+    <footer>
+        &copy; 2025 Beatriz. Todos os direitos reservados.
+    </footer>
+
 </body>
 </html>
